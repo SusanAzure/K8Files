@@ -5,3 +5,7 @@ kubectl get pods
  kubectl get ns
 
   kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\resourceQuota.yaml
+
+   kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\deployment.yaml
+
+   kubectl get pods -n deployment-demo
