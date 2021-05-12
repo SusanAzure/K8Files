@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+ name: my-test-spring-pod
+ labels:
+   app: web
+spec:
+ containers:
+  - name: greeting-app
+    image: sazu5901/greeting-app:1.0.1
+    ports:
+     - containerPort: 8080
