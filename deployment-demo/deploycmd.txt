@@ -1,0 +1,5 @@
+./kubectl create -f C:\Users\A1072713\Desktop\Kubernates_Demo\K8Files\pod1.yaml
+kubectl get pods
+
+ kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\namespace.yaml
+ kubectl get ns
