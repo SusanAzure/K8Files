@@ -9,3 +9,7 @@ kubectl get pods
    kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\deployment.yaml
 
    kubectl get pods -n deployment-demo
+
+
+   kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\service.yaml
+   kubectl get svc -n deployment-demo
