@@ -3,3 +3,5 @@ kubectl get pods
 
  kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\namespace.yaml
  kubectl get ns
+
+  kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\resourceQuota.yaml
