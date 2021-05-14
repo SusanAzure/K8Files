@@ -13,3 +13,8 @@ kubectl get pods
 
    kubectl create -f C:\MyFolder\Company-Tech-Trainings\AKS\MyTrainingDemo\AKSTrainings\deployment-demo\service.yaml
    kubectl get svc -n deployment-demo
+
+   ingress
+   --------
+
+   kubectl create namespace ingress-basic
